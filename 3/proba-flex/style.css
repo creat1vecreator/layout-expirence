@@ -1,0 +1,19 @@
+.orange {
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.pink {
+    background-color: pink;
+}
+
+body {
+    margin: 0;
+}
+
+.block2 {}

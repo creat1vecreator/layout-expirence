@@ -1,0 +1,96 @@
+/* ОБЩИЕ СТИЛИ */
+
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* стили хэдэра */
+
+header {
+    background-color: #58EDED;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+/* стили меню */
+
+.main-menu {
+    background-color: yellow;
+}
+
+.main-menu-list {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.my-section {
+    background-color: brown;
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.section-item {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.sidebar-right {
+    background-color: #58EDED;
+    flex: 1;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    flex: 1;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.main-menu-list a {
+    text-decoration: none;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrap1 {
+    flex: 1;
+}
